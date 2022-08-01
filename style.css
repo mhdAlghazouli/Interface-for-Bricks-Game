@@ -1,0 +1,120 @@
+.container {
+  margin: auto;
+  height: 500px;
+  background-color: aqua;
+}
+
+.socre-navbar {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 100px;
+}
+
+.Game-container {
+  background-color: black;
+  color: white;
+  margin: auto;
+  width: 800px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.red-div {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 1fr 1fr;
+  
+}
+
+.red-div > div {
+  background-color: red;
+  color: red;
+  border: 1px solid black;
+}
+
+.yellow-div {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 1fr 1fr;
+}
+
+.yellow-div > div {
+  background-color: yellow;
+  color: yellow;
+  border: 1px solid black;
+  
+}
+
+#white-small-box {
+  display: grid;
+  grid-template-columns: 10px;
+  grid-template-rows: 10px;
+}
+
+#white-small-box > div {
+  background-color: white;
+}
+
+#white-small-box2 {
+  display: grid;
+  grid-template-columns: 10px;
+  grid-template-rows: 10px;
+  padding-left: 55px;
+}
+
+#white-small-box2 > div {
+  background-color: white;
+}
+
+
+
+
+.green-div {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 1fr 1fr;
+  
+}
+
+.green-div > div {
+  background-color: green;
+  color: green;
+  border: 1px solid black;
+}
+
+.blue-div {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 1fr 1fr;
+  
+}
+
+.blue-div > div {
+  background-color: blue;
+  color: blue;
+  border: 1px solid black;
+}
+
+#white-small-box3 {
+  display: grid;
+  grid-template-columns: 10px;
+  grid-template-rows: 10px;
+  padding-left: 55px;
+}
+
+#white-small-box3 > div {
+  background-color: white;
+}
+
+#white-box {
+  display: grid;
+  grid-template-columns: 140px;
+  grid-template-rows: 10px;
+  margin: auto;
+}
+
+#white-box > div {
+  background-color: wheat;
+}
